@@ -30,7 +30,7 @@
     <ul class="nav-links" id="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#news">News</a></li>
-      <li><a href="#about">About</a></li>
+      <li><a href="#research">Research</a></li>
       <li><a href="#publications">Publications</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#services">Services</a></li>
@@ -75,12 +75,9 @@
           <li><a href="https://github.com/mengtis" rel="noopener">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.1 4.8 18.1 5.1 18.1 5.1c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
             GitHub</a></li>
-          <li><a href="https://openreview.net/profile?id=~Mengti_Sun1" rel="noopener">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm0 3a7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7zm0 3a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/></svg>
-            OpenReview</a></li>
-          <li><a href="https://www.grasp.upenn.edu/people/mengti-sun/" rel="noopener">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 1 9l11 6 9-4.9V17h2V9zM6 13.5V17c0 1.7 2.7 3 6 3s6-1.3 6-3v-3.5l-6 3.3z"/></svg>
-            GRASP Lab</a></li>
+          <li><a href="https://www.linkedin.com/in/mengti-sun-4661b2140/" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0H5a5 5 0 0 0-5 5v14a5 5 0 0 0 5 5h14a5 5 0 0 0 5-5V5a5 5 0 0 0-5-5zM8 19H5V8h3v11zM6.5 6.7a1.77 1.77 0 1 1 0-3.53 1.77 1.77 0 0 1 0 3.53zM20 19h-3v-5.6c0-3.37-4-3.11-4 0V19h-3V8h3v1.77c1.4-2.59 7-2.78 7 2.47V19z"/></svg>
+            LinkedIn</a></li>
           <li><a href="assets/cv/Resume_Mengti_Sun_NIW_2026.pdf">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zm-1 7V3.5L18.5 9z"/></svg>
             CV (PDF)</a></li>
@@ -95,12 +92,12 @@
     <h2 class="sec-title" id="news-h">News</h2>
     <ul class="news">
       <li>
-        <span class="date">Sep 2026</span>
-        <span class="what"><em>SpatialBench-R</em> accepted to the <strong>Embodied AI Workshop at CVPR 2026</strong>; preprint on <a href="https://doi.org/10.5281/zenodo.22197469" rel="noopener">Zenodo</a> and code released.</span>
-      </li>
-      <li>
         <span class="date">Aug 2026</span>
         <span class="what">Joined <strong>Amazon Robotics</strong>, working on multimodal data collection pipelines and sensorized manipulator interfaces for robot learning.</span>
+      </li>
+      <li>
+        <span class="date">Jun 2026</span>
+        <span class="what"><em>SpatialBench-R</em> accepted to the <strong>Embodied AI Workshop at CVPR 2026</strong>; preprint on <a href="https://doi.org/10.5281/zenodo.22197469" rel="noopener">Zenodo</a> and code released.</span>
       </li>
       <li>
         <span class="date">Jun 2025</span>
@@ -126,37 +123,8 @@
   </section>
 
   <!-- ============ ABOUT ============ -->
-  <section id="about" aria-labelledby="about-h">
-    <h2 class="sec-title" id="about-h">About</h2>
-    <div class="about-body">
-      <p>
-        Robots are good at seeing and bad at everything sight leaves out. A box behind another box,
-        an object half-hidden by the gripper holding it, a part that rolls out of frame — in each
-        case the camera stops being useful exactly when the robot needs information most. My work
-        starts from the observation that the robot is not blind in these moments: it is still
-        <em>touching</em> the world, and the way an object moves under contact says a great deal
-        about the shape the camera cannot see.
-      </p>
-      <p>
-        In <strong>Vysics</strong> (RSS 2025) we made that idea concrete. The system fuses a
-        seconds-long RGB-D video with the robot's own proprioception, using observed motion to infer
-        "physible" geometry — the shape that best explains how the object actually behaved under
-        contact. It reconstructs occluded objects substantially better than vision-only methods,
-        without shape priors or category-level assumptions. My earlier
-        <strong>instance-agnostic learning</strong> work removed the remaining crutches: no known 3D
-        model, no AprilTag fiducials, just joint estimation of geometry, pose trajectory, and
-        contact dynamics from raw video.
-      </p>
-      <p>
-        The through-line from my time at Berkeley's Hybrid Robotics Lab — where I built the
-        trajectory optimization that let a Mini Cheetah jump through window-shaped gaps — is that
-        <strong>physics is a form of perception</strong>. A model of how things move is not just a
-        controller input; it is information about the world that no sensor supplies directly.
-        That conviction now shapes what I build at Amazon Robotics, where the bottleneck for robot
-        learning is high-quality multimodal data that captures force and contact alongside vision.
-      </p>
-    </div>
-
+  <section id="research" aria-labelledby="research-h">
+    <h2 class="sec-title" id="research-h">Research Interests</h2>
     <div class="interests">
       <div class="interest">
         <h3>Contact-Rich Perception</h3>
@@ -176,11 +144,6 @@
   <!-- ============ PUBLICATIONS ============ -->
   <section id="publications" aria-labelledby="pubs-h">
     <h2 class="sec-title" id="pubs-h">Publications</h2>
-    <p class="about-body" style="font-size:.9rem;color:var(--muted);margin-bottom:1.6rem;">
-      Paper titles link to the published version where available; my name is shown in bold.
-      A complete, independently maintained record is on
-      <a href="https://scholar.google.com/citations?user=hXb_RHoAAAAJ" rel="noopener">Google Scholar</a>.
-    </p>
     <div id="pub-list"></div>
   </section>
 

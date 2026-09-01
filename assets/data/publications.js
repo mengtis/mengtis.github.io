@@ -21,7 +21,7 @@ const PUBLICATIONS = [
     links: [
       { label: "Paper", url: "https://doi.org/10.5281/zenodo.22197469" },
       { label: "OpenReview", url: "https://openreview.net/forum?id=rR11xeRq03" },
-      { label: "Code", url: "https://github.com/ChrisSun99/spatialbench-r-release" }
+      { label: "Code", url: "https://github.com/mengtis/spatialbench-r-release" }
     ]
   },
   {
@@ -60,7 +60,7 @@ const PUBLICATIONS = [
     badge: "CASE 2021",
     why: "Gives legged robots a way to plan jumps through narrow openings in real time, extending where autonomous machines can go during inspection and disaster response.",
     citations: 63,
-    fig: "assets/img/pubs/case2021.png",
+    fig: "assets/img/pubs/case2021.jpg",
     figAlt: "MIT Mini Cheetah jumping through a window-shaped opening.",
     links: [
       { label: "Paper", url: "https://ieeexplore.ieee.org/document/9551524" },

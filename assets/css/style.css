@@ -202,9 +202,6 @@ section:first-of-type { padding-top: 2.6rem; }
 }
 
 /* ---------- About ---------- */
-.about-body { color: var(--ink-2); max-width: 68ch; }
-.about-body strong { color: var(--ink); font-weight: 600; }
-
 .interests { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.7rem; }
 .interest {
   background: var(--surface); border: 1px solid var(--border);

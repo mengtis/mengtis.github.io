@@ -108,6 +108,7 @@
       sameAs: [
         "https://scholar.google.com/citations?user=hXb_RHoAAAAJ",
         "https://github.com/mengtis",
+        "https://www.linkedin.com/in/mengti-sun-4661b2140/",
         "https://openreview.net/profile?id=~Mengti_Sun1",
         "https://www.grasp.upenn.edu/people/mengti-sun/"
       ],
